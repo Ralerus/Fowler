@@ -14,11 +14,11 @@ public class Movie {
         return priceCode;
     }
     
-    public void setPriceCode(int arg) {
-        priceCode = arg;
+    public void setPriceCode(int price) {
+        priceCode = price;
     }
     
-    public String getTitle (){
+    public String getTitle(){
         return title;
     };
 }
