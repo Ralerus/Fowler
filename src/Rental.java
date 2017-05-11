@@ -5,9 +5,11 @@ class Rental {
         movie = newmovie;
         daysRented = newdaysRented;
     }
+    
     public int getDaysRented() {
         return daysRented;
     }
+    
     public Movie getMovie() {
         return movie;
     }
@@ -41,6 +43,4 @@ class Rental {
 			return 1;
 		}
 	}
-    
-    
 }
